@@ -13,7 +13,6 @@ A scalable and efficient Asset Evaluation Service that leverages an event-driven
 - **AWS**: Lambda, SQS, DynamoDB, S3
 - **Infrastructure Automation**: Terraform
 - **Backend**: Node.js, Express
-- **Frontend**: React
 - **CI/CD**: GitHub Actions
 - **APIs**: ChatGPT API
 - **Languages**: JavaScript, Python
@@ -26,8 +25,7 @@ The system is built using an event-driven architecture with the following flow:
 3. **DynamoDB** stores asset data in a scalable NoSQL database.
 4. **S3** is used for storing asset files and other media.
 5. **Terraform** automates infrastructure provisioning for AWS services.
-6. The front-end is a **React** app that communicates with an **Express** API to display asset information.
-7. The **ChatGPT API** is integrated for enhanced asset evaluation using conversational AI.
+6. The **ChatGPT API** is integrated for enhanced asset evaluation using conversational AI.
 
 ## Installation
 
